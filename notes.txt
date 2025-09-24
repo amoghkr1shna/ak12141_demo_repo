@@ -1,10 +1,10 @@
 import streamlit as st
-import  math, os     # unused import (ruff will complain)
+import  math, os     # os is an unused import (ruff'll complain)
 
 def add(a,b):  # missing spaces after comma (ruff will fix) | also missing type hints
     return a+b
 
-st.title("OSource Demo App")  # inconsistent quotation marks (ruff will fix)
+st.title("OSource Demo App')  # inconsistent quotation marks (ruff will fix)
 
 name= st.text_input("Enter your name") # spacing issue around =
 
