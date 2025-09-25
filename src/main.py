@@ -3,7 +3,7 @@ import math  # unused import (ruff will complain)
 import streamlit as st
 
 
-def add(a: int, b: int) -> int:  # Type annotations added
+def add(a: int, b: int) -> int: 
     return a + b
 
 
